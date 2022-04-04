@@ -1,0 +1,23 @@
+{
+  "name": "u-develop-it",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstackneo/u-develop-it.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstackneo/u-develop-it/issues"
+  },
+  "homepage": "https://github.com/fullstackneo/u-develop-it#readme",
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
