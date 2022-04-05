@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start":"nodemon server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/fullstackneo/u-develop-it#readme",
   "dependencies": {
     "express": "^4.17.3",
+    "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
   },
   "devDependencies": {
