@@ -5,7 +5,7 @@ const inputCheck = require('../../utils/inputCheck');
 
 // get all voters
 router.get('/voter', (req, res) => {
-  const sql = `SELECT * FROM voters WHERE email NOT LIKE '%edu'`;
+  const sql = `SELECT * FROM voters LIMIT 10,10`;
   db.query(sql, (err, results) => {
     if (err) {
       res.status(500).json({ err: err.message });
